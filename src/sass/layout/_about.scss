@@ -1,0 +1,242 @@
+.about {
+  padding-top: 125px;
+  background-color: $about-background-color;
+  background-image: url('../images/mobile/about/bckg-milk.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 90%;
+  padding-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    background-image: none;
+    padding-top: 130px;
+    padding-bottom: 66px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 39px;
+    background-size: cover;
+    background-image: url('../images/desktop/about/bckg-milk.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+  }
+}
+
+.about__container {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+  }
+}
+
+.about__pre-title {
+  margin-bottom: 15px;
+  color: $secondary-accent-color;
+  font-family: $secondary-font;
+  font-size: 18px;
+  line-height: 0.85;
+  text-align: center;
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+    line-height: 1.15;
+  }
+}
+
+.about__title {
+  margin-bottom: 26px;
+  color: $main-accent-color;
+  font-family: $secondary-font;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.14;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+    line-height: 1.13;
+  }
+}
+
+.about__wrapper-image {
+  min-width: 280px;
+  margin-right: 15px;
+  padding-bottom: 45px;
+  @media screen and (min-width: 768px) {
+    min-width: 340px;
+    margin-right: 17px;
+    padding-bottom: 0px;
+  }
+  @media screen and(min-width: 1280px) {
+    min-width: 516px;
+    margin-right: 74px;
+  }
+}
+
+.about__img {
+  display: block;
+  height: auto;
+  width: 100%;
+  @media screen and(min-width: 1280px) {
+    animation: float 3s $function infinite;
+  }
+}
+
+.about__wraper {
+  max-width: 100%;
+  width: 463px;
+  @media screen and(min-width: 768px) {
+    padding-top: 40px;
+  }
+  @media screen and(min-width: 1280px) {
+    padding-top: 0;
+  }
+}
+
+.about__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+  color: $main-dark-color;
+  margin-bottom: 47px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 31px;
+
+    font-size: 14px;
+    line-height: 1.76;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.76;
+    height: 79px;
+    margin-bottom: 35px;
+  }
+}
+
+.about__text-after {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+  color: $secondary-dark-color;
+  margin-bottom: 27px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.76;
+    letter-spacing: 0.04em;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.78;
+    height: 155px;
+    margin-bottom: 45px;
+  }
+}
+
+.about__button {
+  min-width: 176px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: #ffffff;
+  border-radius: 22px;
+  color: $main-accent-color;
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
+}
+
+.about__button-icon {
+  fill: $main-accent-color;
+  margin-left: 5px;
+  vertical-align: baseline;
+}
+
+// tablet
+
+.about__tablet {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-bottom: 56px;
+  }
+  @media screen and(min-width: 1280px) {
+    display: none;
+  }
+}
+
+// desktop
+.about__desktop {
+  display: none;
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+// modal
+
+.modal_about {
+  background: no-repeat url(../images/desktop/hero/icecream-1x.png) center;
+}
+
+.about__title-modal {
+  margin-bottom: 50px;
+  color: $main-accent-color;
+  font-family: $secondary-font;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 0.87;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about__modal-item {
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10%;
+}
+
+.about__modal-text {
+  font-weight: 500;
+  color: $main-dark-color;
+  font-size: 16px;
+  line-height: 1.76;
+}
+
+// .about__text-modal {
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 1.76;
+//   color: $main-dark-color;
+// }
+
+.modal__btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}

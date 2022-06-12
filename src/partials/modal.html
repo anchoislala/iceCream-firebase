@@ -1,0 +1,164 @@
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal__close" data-modal-close>
+            <svg class="close-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-modal-close"></use>
+            </svg>
+        </button>
+
+        <p class="modal__title">Leave your details, we will call you back</p>
+        <form action="#" class="modal__form">
+  
+                <div class="form__field">
+                    <label for="user-email" class="form__text">
+                        Mail</label>
+                    <div class="form__wrap">
+                        <input type="text" name="email" class="form__input" required placeholder="" id="user-email" />
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form__field">
+                    <label for="user-name" class="form__text">Password</label>
+                    <div class="form__wrap">
+                        <input type="text" minlength="2" name="user-name" class="form__input" placeholder=" "
+                            required="required" id="user-name" />
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="login-error">
+                    <p class="message-error"></p>
+                    <p class="auth-state"></p>
+                </div>
+
+                <!-- <div class="form__field">
+                    <label for="user-tel" class="form__text">
+                        Telephone</label>
+                    <div class="form__wrap">
+                        <input type="tel" name="user-tel" id="user-tel" class="form__input" required
+                            placeholder=" " />
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div> -->
+
+
+
+                <!-- <div class="form__field form__comment">
+                    <label for="user-text" class="comment__input">
+                        
+                A comment</label>
+                    <textarea name="user-text" id="user-text" class="comment__text" required
+                        placeholder="Enter text" maxlength="10"></textarea>
+                </div>
+
+                <div class="form__field form__policy" >
+                    <input type="checkbox" name="policy" id="modal-check" class="policy__check is-hidden"/>
+                    <label for="modal-check" class="policy__label">
+                        <span class="policy__border"><svg class="policy__icon" width="14" height="14">
+                                <use href="./images/sprite.svg#icon-accept"></use>
+                            </svg>
+                        </span>
+                        <span class="policy__field">
+                            <span class="policy__text">I agree with the newsletter and accept <a href="#" class="policy__link link">Terms of an agreement</a></span>
+                        </span>
+                    </label>
+                </div> -->
+
+                <button type="submit" class="modal__button" id="btnLogin">
+                    Log in
+                </button>
+
+                <button type="submit" class="modal__button" id="btnSignup">
+                    Sign up
+                </button>
+
+            </form>
+    </div>
+</div>
+
+
+
+
+
+<div class="backdrop is-hidden" header-modal>
+    <div class="modal">
+        <button type="button" class="modal__close" header-modal-close>
+            <svg class="close-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-modal-close"></use>
+            </svg>
+        </button>
+
+        <p class="modal__title">Leave your details, we will call you back</p>
+        <form action="#" class="modal__form">
+  
+
+                <div class="form__field">
+                    <label for="name-user" class="form__text">Name</label>
+                    <div class="form__wrap">
+                        <input type="text" minlength="2" name="name-user" class="form__input" placeholder=" "
+                            required="required" id="name-user" />
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form__field">
+                    <label for="tel-user" class="form__text">
+                        Telephone</label>
+                    <div class="form__wrap">
+                        <input type="tel" name="tel-user" id="tel-user" class="form__input" required
+                            placeholder=" " />
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form__field">
+                    <label for="email-user" class="form__text">
+                        Mail</label>
+                    <div class="form__wrap">
+                        <input type="text" name="email" class="form__input" required placeholder=""
+                            id="email-user" />
+                        <svg class="form__icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form__field form__comment">
+                    <label for="text-user" class="comment__input">
+                        
+                A comment</label>
+                    <textarea name="text-user" id="text-user" class="comment__text" required
+                        placeholder="Enter text" maxlength="10"></textarea>
+                </div>
+
+                <div class="form__field form__policy" >
+                    <input type="checkbox" name="policy" id="check-modal" class="policy__check is-hidden"/>
+                    <label for="check-modal" class="policy__label">
+                        <span class="policy__border"><svg class="policy__icon" width="14" height="14">
+                                <use href="./images/sprite.svg#icon-accept"></use>
+                            </svg>
+                        </span>
+                        <span class="policy__field">
+                            <span class="policy__text">I agree with the newsletter and accept <a href="#" class="policy__link link">Terms of an agreement</a></span>
+                        </span>
+                    </label>
+                </div>
+
+                <button type="submit" class="modal__button">
+                    Send
+                </button>
+
+            </form>
+    </div>
+</div>
