@@ -37,7 +37,7 @@ const divLoginError = document.querySelector('.login-error');
 const lblLoginErrorMessage = document.querySelector('.message-error');
 const lblAuthState = document.querySelector('.auth-state');
 
-connectAuthEmulator(auth, 'http://localhost:1234/')
+// connectAuthEmulator(auth, 'http://localhost:1234/')
 
 
 const loginEmailPassword = async (evt) => {
